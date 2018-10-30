@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="60">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Mensagens Automáticas</title>
+</head>
+<body>
+
+    <div class="row container">
+        <div class="card-panel orange darken-2">
+            <span class="white-text text-darken-2 center"><h4><strong> MENSAGENS AUTOMÁTICAS</strong></h4></span>
+          </div>
+        <form class="col s12" name="formulario">
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="link" name="link" class="materialize-textarea"></textarea>
+              <label for="textarea1">INFORME O CÓDIGO </label>
+            </div>
+          </div>
+            <ul class="collapsible"> 
+              <li>
+                <div class="collapsible-header"><i class="material-icons" onClick="copiarTexto('Texto Copiado!', 3000)">autorenew</i>Código de Rastreio</div>
+                <div class="collapsible-body">
+                  <span>****************************************************
+                    <br><br>
+                    Toner entregue, conforme código de rastreio <b id="demo"></b>
+                   <br><br>
+                   ******************************************************
+                  </span>
+                </div>
+              </li>
+            </ul>
+        </form>
+      </div>
+
+
+     <!--Jquery JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js"></script>
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/funcoes.js"></script>
+
+
+    <!--Jquery JS  ANTIGO-->
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+      
+    
+</body>
+</html>
